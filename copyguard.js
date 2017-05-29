@@ -1,4 +1,4 @@
-//Will block: ctrl+s ctrl+u ctrl+c. You can find more keycodes in google.
+// Will block: ctrl+s ctrl+u ctrl+c. You can find more keycodes in google.
 document.addEventListener('contextmenu', event => event.preventDefault());
 document.onkeydown = function(e) {
         if (e.ctrlKey && 
