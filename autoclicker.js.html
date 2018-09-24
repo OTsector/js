@@ -1,13 +1,7 @@
-<!-- This script is based on Jquery framework. So recuare framework source to insert in html code -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!-- End of Jquery insert -->
-
 <script type="text/javascript">
-$(document).ready(function(){
-  $('.class').trigger('click');
-});
-
-$(document).ready(function(){
-  $('#id').trigger('click');
-});
+	var list = document.getElementsByClassName("className");
+	for (var i=0; i<list.length; i++) list[i].click();
+	var list = document.getElementsById("idName");
+	for (var i=0; i<list.length; i++) list[i].click();
 </script>
+</body>
